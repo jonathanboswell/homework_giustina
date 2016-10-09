@@ -1,0 +1,33 @@
+.navbar{
+	height: 120px;
+}
+#navbar-container{
+	margin-top: 120px;
+	width: inherit;
+}
+#teaser{
+	border-top: solid yellow 5px;
+	background-color: grey;
+	padding: 20px;
+	text-align: center;
+	font-weight: Semibold;
+	font-size: 24px;
+	font-style: italic;
+	color: black;
+}
+#banner{
+	background: url("../images/coworking.jpg");
+  	background-size: cover;
+  	background-position: center;
+  	height:1400px;
+}
+#jumbotron{
+	background-color: rgba(255,255,255,.8);
+	padding: 20px;
+	height:1320px;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+#jumbotron h3{
+	font-size: 30px;
+}

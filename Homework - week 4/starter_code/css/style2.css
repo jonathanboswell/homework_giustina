@@ -1,0 +1,193 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: rgb(29,41,49);
+  overflow: hidden;
+}
+header h1{ /*<!-- couldn't figure out how to make this shift down to center the way that the nav bar has so I added margin*/
+  /*border: 1px solid white;*/
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  clear:right;
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 35px;
+}
+nav {
+  /*border: 1px solid white;*/
+  display: inline-block;
+  list-style: none;
+  font-size: 30px;
+  float: right;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  word-spacing: 50px;
+  margin-top: 50px;
+}
+nav a{
+  color: #f4d942;
+  text-decoration: none;
+}
+#blog_body{
+  /*border: 1px solid red;*/
+  background-color: rgb(232,232,232);
+}
+#blog_body hr{
+  clear:right;
+  margin-bottom: 47px;
+  color:rgb(29,41,49);
+}
+#blog_leftrail{
+  /*border: 1px solid blue;*/
+  width: 702px;
+  margin-left: 119px;
+  margin-top:86px;
+  float: left;
+}
+#blog_leftrail h1{
+  font-size: 45px;
+  color: rgb(29,41,49);
+}
+#blog_leftrail img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.first_letter{ /*<!-- can't figure out how to make the first letter and rest of text be next to one another*/
+  /*border: 1px solid red;*/
+  font-size:80px;
+  display: inline;
+  float: left;
+  color: grey;
+}
+.text{
+  font-size: 20px;
+  float: right;
+}
+#blog_leftrail p{
+  color: grey;
+  line-height: 20px;
+}
+#blog_post1{
+  /*border: 1px solid red;*/
+}
+#blog_post2{
+  /*border: 1px solid red;*/
+}
+.read_more{
+  float:right;
+  margin-top: 66px;
+  font-size: 20px;
+  color: rgb(29,41,49); 
+  margin-bottom: 41px;
+  cursor: default;
+}
+.readLess{
+  float:right;
+  margin-top: 66px;
+  font-size: 20px;
+  color: rgb(29,41,49); 
+  margin-bottom: 41px;
+  cursor: default;
+}
+#blog_rightrail{
+  /*border: 1px solid green;*/
+  float: right;
+  width: 241px;
+  margin-top: 69px;
+  margin-right: 119px;
+}
+h2{
+  font-size: 35px;
+  color: rgb(29,41,49); 
+  padding-bottom: 20px;
+  font-weight: 800;
+}
+#categories{
+  /*border: 1px solid red;*/
+}
+#blog_rightrail ul{
+  color: rgb(29,41,49);
+  line-height: 25px;
+  font-size:120%;
+}
+#about_relaxr{
+  /*border: 1px solid red;*/
+  margin-top: 68px;
+}
+#blog_rightrail p{
+  color: rgb(29,41,49);
+  padding-bottom: 5px;
+  line-height: 25px;
+  font-size:120%;
+}
+#learn_more{
+  font-weight: bold;
+  font-size: 110%;
+}
+#ad_unit{
+  margin-top: 60px;
+  /*border: 1px solid red;*/
+}
+#button_area_border{
+  /*border: 1px solid purple;*/
+}
+#button_gutter{
+  height:73px;
+  clear:both;
+}
+#button{
+  /*border: 1px solid blue;*/
+  clear: both;
+  background-color: #f4d942;
+}
+button{
+  background-color: rgb(29,55,70);
+  color: white;
+  font-size:20px;
+  font-weight: bold;
+  border-radius: 7px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 500px; /*<!-- wasn't sure how to center this properly*/
+}
+footer{
+  /*border: 1px solid red;*/
+  clear: both;
+  background-color: rgb(50,50,50);
+}
+footer h1{
+  /*border: 1px solid red;*/
+  color: #f4d942;
+  font-size: 50px;
+  font-weight: 800;
+  margin: auto;
+  width: 12%;
+  margin-top: 70px;
+}
+#footer_images{
+  /*border: 1px solid yellow;*/
+  margin:auto;
+  width:10%;
+  margin-top: 70px;
+}
+#facebook{
+  padding-left: 60px;
+}
+footer p{
+  /*border: 1px solid red;*/
+  color:white;
+  margin: auto;
+  width: 14%;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+
+

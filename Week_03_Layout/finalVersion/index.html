@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Relaxr Blog</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+
+		<!-- jQuery -->
+	  	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+			$( function() {
+				$( "#dialog" ).dialog({
+				  autoOpen: false,
+				  show: {
+				    effect: "blind",
+				    duration: 1000
+				  },
+				  hide: {
+				    effect: "explode",
+				    duration: 1000
+				  }
+				});
+
+				$( "#opener" ).on( "click", function(e) {
+					e.preventDefault();
+				  $( "#dialog" ).dialog( "open" );
+				});
+			} );
+		</script>
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="main">
+			<div class="container">
+				<div id="posts">
+					<article class="post">
+						<h2><a href="#">How I implemented Relaxr in 2 weeks and changed my life.</a></h2>
+						<img src="images/blog_photo1.jpg" alt="Crew Meet">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+
+						<p class="readmore"><a href="#">Read more &gt;</a></p>
+					</article>
+					<article class="post">
+						<h2><a href="#">I traveled across the globe thanks to Relaxr’s Excel automation</a></h2>
+						<img src="images/blog_photo2.jpg" alt="Canoes">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+
+						<p class="readmore"><a href="#">Read more &gt;</a></p>
+					</article>
+				</div>
+				<div id="sidebar">
+					<h3>Categories</h3>
+					<ul>
+						<li><a href="#">Success stories</a></li>
+						<li><a href="#">Stats</a></li>
+						<li><a href="#">How tos</a></li>
+						<li><a href="#">Best of</a></li>
+						<li><a href="#">Business tips</a></li>
+					</ul>
+					<h3>About Relaxr</h3>
+					<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br>
+					<a href="">Learn More</a></p>
+					<img src="images/ad-unit.png" alt="Ad Unit">
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+
+		<div id="signup">
+			<a class="button blue" href="#" id="opener">Sign Up Now!</a>
+		</div>
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">&copy; 2016 Relaxr, Inc.</p>
+		</footer>
+
+		<!-- jQuery elements -->
+		<div id="dialog" title="Basic dialog">
+		  <p>Windows 98 called and wants it's dialog box back.</p>
+		</div>
+	</body>
+</html>

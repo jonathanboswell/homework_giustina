@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  margin: 3em;
+  padding: 0;
+}
+
+#fahrenheit{
+	color:blue;
+}
+
+.warm-bg{
+  background:orange;
+}
+
+.cool-bg{
+  background:blue;
+}
