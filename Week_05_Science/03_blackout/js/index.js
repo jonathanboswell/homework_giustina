@@ -4,6 +4,9 @@ function turnLightsOff(){
 function turnLightsOn(){
 	$("body").removeClass('dark')
 }
+function sayHello(){
+	
+}
 $("#light-on").click(function(){
 	turnLightsOff();
 });

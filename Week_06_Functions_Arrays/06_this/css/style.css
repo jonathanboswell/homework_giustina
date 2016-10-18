@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  margin: 3em;
+  padding: 0;
+}
+h3 {
+    margin-top: 10px;
+}
+.nyc {
+  background-image: url(../images/nyc.jpg)
+}
+.sf {
+  background-image: url(../images/sf.jpg)
+}
+.la {
+  background-image: url(../images/la.jpg)
+}
+.austin {
+  background-image: url(../images/austin.jpg)
+}
+.sydney {
+  background-image: url(../images/sydney.jpg)
+}
