@@ -1,0 +1,99 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('http://digitaladculture.com/wp-content/uploads/2014/12/Jay-Z.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+header h1 {
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  padding-top: 15vh;
+  margin: 0;
+}
+
+blockquote {
+  font-size: 2em;
+  width: 60%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+section {
+  width: 80%;
+  margin: 100px auto;
+  clear: both;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hipster-problems img {
+  width: 48%;
+}
+
+.hipster-problems article {
+  margin: 0;
+  width: 48%;
+  float: right;
+  line-height: 2em;
+}
+
+.cartoon-problems img {
+  padding: 1%;
+  width: 24%;
+  box-sizing: border-box;
+}
+
+footer {
+  display: none;
+  text-align: center;
+  margin-bottom: 30px  ;
+}
+
+@media (max-width: 1024px) {
+  .too-much {
+    display: none;
+  }
+
+  .cartoon-problems img {
+    width: 49%;
+  }
+}2
+
+@media (max-width: 480px) {
+
+  blockquote {
+    width: 95%;
+    font-size: 1.5em;
+  }
+
+  .hipster-problems img {
+    width: 100%;
+  }
+
+  .hipster-problems article {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .cartoon-problems img {
+    width: 100%;
+  }
+
+  footer {
+    display: inherit;
+  }
+}

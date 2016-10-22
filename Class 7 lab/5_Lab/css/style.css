@@ -1,0 +1,35 @@
+#about{
+	border:2px solid black;
+	background-color: orange;
+	font-size: 120%;
+	color: grey;
+}
+.hidden{
+	display: none;
+}
+.show {
+	display: inline-block;
+}
+#work{
+	width: 100%;
+	border: 2px solid red;
+	background-color: orange;
+	color: grey;
+}
+#coolCat{
+	width: 40%;
+}
+#machuPicchu{
+	width: 40%;
+}
+#underwater{
+	width: 40%;
+}
+#underwater2{
+	width: 40%;
+}
+#contact {
+	border: 2px solid black;
+	background-color: orange;
+	color: grey;
+}

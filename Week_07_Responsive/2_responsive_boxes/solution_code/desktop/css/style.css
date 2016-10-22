@@ -1,0 +1,76 @@
+*{
+  width:100%;
+  -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+header, li, section, article, aside{ /* assigns borders to all of the elements */
+  border: 1px solid black;
+} 
+
+header {
+  height:60px;
+}
+
+header nav ul li {
+  width:12%;
+  height:40px;
+  margin:10px;
+  float:left;
+}
+
+header nav ul li:last-child{
+  float:right;
+}
+
+header nav ul li:last-child div{
+  margin:0 auto;
+  background:black;
+  height:1px;
+  width:95%;
+  margin-top:3px;
+
+}
+
+section#primary{
+  height:250px;
+}
+
+section#ads, nav{
+  clear:both;
+  overflow:hidden;
+}
+article {
+  height:125px;
+  width:21.25%;
+  float:left;
+  margin: 20px 2.5%;
+}
+article:first-of-type{ /* first article */
+  margin-left:0px;
+}
+
+article:last-of-type{ /* last article */
+  margin-right:0px;
+}
+
+
+aside {
+  height:100px;
+  width:30.3%; /* gets as about 91% width */
+  margin:20px 1.5%;  
+  float:left;
+}
+
+#container{
+  margin:0 auto;
+  width:960px;
+
+}
+
+/* MOBILE VERSION */
+
+
+
