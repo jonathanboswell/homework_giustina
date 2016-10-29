@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Elements</title>
+	<link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Text Input</div>
+            <div class="panel-body">
+                <label for="name">Name</label>
+                <input id="name" type="text" value="Giustina" placeholder="Enter your name">
+                <br>
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" value="">
+                <br>
+                <label for="message">Textarea</label>
+                <textarea id="message"></textarea>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Select</div>
+            <div class="panel-body">
+                <label for="state">State</label>
+                <select id="state">
+                    <option value="CA">California</option>
+                    <option value="NY">New York</option>
+                    <option value="FL">Florida</option>
+                    <option value="TX">Texas</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Radio Button</div>
+            <div class="panel-body">
+
+                <input id="male" type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+                <input id="female" type="radio" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Checkbox</div>
+            <div class="panel-body">
+                <input id="check1" type="checkbox" name="check" value="check1">
+                <label for="check1">Cheese</label>
+                <br>
+                <input id="check2" type="checkbox" name="check" value="check2">
+                <label for="check2">Pepporini</label>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Buttons</div>
+            <div class="panel-body">
+                <button class="btn">This is a button</button>
+                <br><br>
+                <button class="btn btn-success" type="submit">This is a submit button</button>
+                <br><br>
+                <input type="submit"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

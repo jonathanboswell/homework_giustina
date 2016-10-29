@@ -1,0 +1,22 @@
+body {
+    padding-top: 70px;
+}
+
+#box {
+    height: 500px;
+    background-color: red;
+}
+#news {
+    height: 500px;
+    background-color: grey; 
+}
+#toasties{
+	height: 500px;
+    background-color: beige;
+}
+.panel {
+    padding-top: 70px;
+}
+h3 {
+    padding: 8px;
+}

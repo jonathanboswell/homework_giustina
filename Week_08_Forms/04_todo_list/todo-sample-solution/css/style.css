@@ -1,0 +1,92 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-size:18px;
+	font-family: arial, helvetica, "sans-serif";
+}
+
+a {
+	color: #666;
+	text-decoration:none;
+}
+
+p {
+	text-align:center;
+	font-size:1em;
+}
+
+p label {
+	color:#f5f5f5;
+	display:block;
+	background:#003366;
+	padding: 1em 0;
+	margin:0em;
+}
+
+section {
+	box-shadow:1px 1px 5px black;
+	padding:3em 5em;
+	width: 60%;
+	margin:0 auto;
+}
+
+
+button{
+	width:50%;
+	border:1px solid white;
+	display:inline-block;
+	height:3em;
+	background:#6897bb;
+	color:white;
+	text-transform:uppercase;
+}
+
+
+ul {
+	padding-left:0px;
+}
+
+li {
+	list-style: none;
+}
+
+label {
+	color:#003366;
+	display:inline-block;
+	margin-right:1em	;
+}
+
+input {
+	margin-top:1em;
+	font-size:1em;
+	width:100%;
+	display:block;
+}
+
+input[type="submit"] {
+	border:none;
+	background:#0e2f44;
+	color:#f5f5f5;
+}
+input[type="checkbox"]{
+	display:none;
+	
+}
+input[type="checkbox"] + label::before{
+	content:"\2713";
+	color:#f7f7f7;
+	display:inline-block;
+	background:#f7f7f7;
+	width:1.5em;
+	height:1.5em;
+	margin-right:1em;
+	font-size:1em;
+	text-align:center;
+}
+
+input[type="checkbox"]:checked+label::before{
+	content:"\2713";
+	color:green;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cool Forms</title>
+	<link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <style>
+    	.panel{
+    		margin: 20px;
+    	}
+    	#emailInputs{
+    		padding-left: 20px;
+    	}
+    	#subject{
+			width: 100%;
+			margin-right: 10px;
+    	}
+    	#message{
+    		width: 100%;
+    		height: 100px;
+    		margin-top: 10px;
+    	}
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading">Send an email!</div>
+			<div id="emailInputs" class="panel-body">
+				<label for="email">To:</label>
+				<input id="email" type="email" value="" placeholder="email@domain.com">
+				<br>
+				<label for="cc">cc:</label>
+				<input id="cc" type="email" value="" placeholder="email@domain.com">
+				<br>
+				<label for="bcc">Bcc:</label>
+				<input id="bcc" type="email" value="" placeholder="email@domain.com">
+				<br>
+				<input id="subject" type="text" value="" placeholder="Subject">
+				<br>
+				<textarea id="message" placeholder="Type your message here!"></textarea>	
+				<br>
+				<button class="btn" id="send">Send</button>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">What did you send?</div>
+			<div class="panel-body"></div>
+			<h3 id="outputEmail"></h3>
+			<h3 id="outputCc"></h3>
+			<h3 id="outputBcc"></h3>
+			<h3 id="outputSubject"></h3>
+			<p id="outputMessage"></p>
+		</div>
+	</div>
+
+
+<!-- 	<form id="myForm">
+		<input id="name" type="text" name="myName" placeholder="Enter your name">
+		<button id="save">Save</button>
+	</form>
+	<h1 id="greeting"></h1> -->
+	<script src="./js/form.js"></script>
+</body>
+</html>
