@@ -1,5 +1,80 @@
 body {
-  font-family: sans-serif;
-  margin: 3em;
-  padding: 0;
+	border: 5px solid green;
+	font-family: sans-serif;
+	padding-top: 54px;
+}
+.navbar-header{
+	border: 1px solid red;
+}
+#navbar{
+	border: 2px solid red;
+}
+#main-navbar{
+	border: 2px solid blue;
+}
+#logoNav{
+	max-height: 10%;
+	max-width: 10%;
+	border: 1px solid red;
+}
+#sections{
+	border: 2px solid orange;
+	padding-left: 0;
+	padding-right: 0;
+}
+section{
+	border: 2px solid blue;
+	height: 500px;
+}
+#home{
+	border: 2px solid purple;
+	background-image: url("../images/shaki_toastie2.jpg");
+	background-size: cover;
+	background-position:center;
+}
+#menu{
+	background-image: url("../images/toasties_menu_screenshot.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+}
+#cateringEvents{
+	background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");
+	text-align: center;
+}
+hr{
+	width: 15%;
+	margin-top: 50px;
+}
+#cateringEventsText{
+	border: 1px solid blue;
+	padding-top: 50px;
+	line-height: 30px;
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	color: white;
+	font-weight: bold;
+}
+#contact{
+	background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");
+}
+#contactImg{
+	width: 40%;
+	height: auto;
+	float: right;
+}
+#map{
+	border: 2px solid green;
+	float: left;
+	clear: right;
+}
+.footer {
+	border: 2px solid red;
+	/*bottom: 0;*/
+	width: 100%;
+	/*Set the fixed height of the footer here */
+	height: 100px;
+	background-color: black;
+	color: white;
 }

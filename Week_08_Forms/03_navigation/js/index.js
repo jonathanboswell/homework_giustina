@@ -18,6 +18,7 @@ $(function() {
         $(this).addClass('active');
 
         //show the corresponding <section>
+        $('section').hide();
         $("#"+name).show();
     })    
 });
