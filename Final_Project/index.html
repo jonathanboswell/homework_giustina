@@ -5,59 +5,91 @@
 	<meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/b0583d568a.js"></script>
     <link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-      <div id="navbar" class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a id="homeLink" class="navbar-brand" href="#">Toasties</a>
-<!--           <img id="logoNav" src="./images/toastieswhite.png" href="#home"> -->
-        </div>
-        <div class="collapse navbar-collapse" id="main-navbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li name="menu"><a href="#menu">Menu</a></li>
-            <li name="cateringEvents" ><a href="#cateringEvents">Catering &amp; Events</a></li>
-            <li name="contact"><a href="#contact">Contact Us</a></li>
-          </ul>
-        </div>
+  <div class="row">
+    <div class="col-xs-12">
+    	<nav class="navbar navbar-inverse navbar-fixed-top">
+          <div id="navbar" class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a id="homeLink" class="navbar-brand"><img id="logoNav" src="./images/logo_toastieswhite.png" href="#home"></a>
+              <!-- why does removing the class="navbar-brand" make the image appear whereas keeping it there does some funky shit? -->
+            </div>
+            <div class="collapse navbar-collapse" id="main-navbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li name="menu"><a href="#menu">Menu</a></li>
+                <li name="cateringEvents" ><a href="#cateringEvents">Catering &amp; Events</a></li>
+                <li name="contact"><a href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
-    <div id="sections" class="container-fluid">
-      <section id="home">
-    </section>
-    <section id="menu">
-    </section>
-    <section id="cateringEvents">
-      <hr>
-      <div id="cateringEventsText">
-        <h1>Catering &amp; Events</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae velit quis ligula porta elementum quis sit amet quam. Praesent maximus, dolor nec lobortis volutpat, purus sapien pulvinar urna, ac venenatis sem risus sit amet erat. Sed sit amet libero vitae urna tempus sollicitudin. Maecenas sit amet dui pellentesque, lobortis massa eu, feugiat neque. Ut vulputate dolor non nulla pharetra, at vulputate tellus lobortis. Etiam at dolor quam. Donec elit felis, sodales non cursus sodales, tristique in neque. Nulla eget suscipit erat. Cras mattis eget ipsum a maximus. Aliquam ultrices neque quam, vel hendrerit lorem commodo id. Curabitur rutrum mauris viverra nunc ultricies facilisis. Duis facilisis, leo ac cursus pretium, turpis mi tincidunt enim, sit amet rutrum quam purus vel quam.</p>
-      </div>
-    </section>
-    <section id="contact">
-      <h1>Contacts Us</h1>
-      <div id="map">
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:300px;'><div id='gmap_canvas' style='height:300px;width:300px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="https://www.autohuren.world/">wereldwijd</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(6.451246599999999,3.4222700999999915),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(6.451246599999999,3.4222700999999915)});infowindow = new google.maps.InfoWindow({content:'<strong>Toasties</strong><br>4, bank road, Ikoyi, Lagos, nigeria<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-      </div>
-      <div id="contactText">
-        <img id="contactImg" src="./images/toasties_contact.jpg">
-      </div>
-    </section>
     </div>
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">Content</p>
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="sections" class="container-fluid">
+          <section id="home">
+          </section>
+          <section id="menu">
+          </section>
+          <section id="cateringEvents">
+            <hr>
+            <div id="cateringEventsText">
+              <h1>Catering &amp; Events</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae velit quis ligula porta elementum quis sit amet quam. Praesent maximus, dolor nec lobortis volutpat, purus sapien pulvinar urna, ac venenatis sem risus sit amet erat. Sed sit amet libero vitae urna tempus sollicitudin. Maecenas sit amet dui pellentesque, lobortis massa eu, feugiat neque. Ut vulputate dolor non nulla pharetra, at vulputate tellus lobortis. Etiam at dolor quam. Donec elit felis, sodales non cursus sodales, tristique in neque. Nulla eget suscipit erat. Cras mattis eget ipsum a maximus. Aliquam ultrices neque quam, vel hendrerit lorem commodo id. Curabitur rutrum mauris viverra nunc ultricies facilisis. Duis facilisis, leo ac cursus pretium, turpis mi tincidunt enim, sit amet rutrum quam purus vel quam.</p>
+            </div>
+          </section>
+          <section id="contact">
+            <h1>Contacts Us</h1>
+            <div id="map">
+              <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:300px;'><div id='gmap_canvas' style='height:300px;width:300px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="https://www.autohuren.world/">wereldwijd</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(6.451246599999999,3.4222700999999915),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(6.451246599999999,3.4222700999999915)});infowindow = new google.maps.InfoWindow({content:'<strong>Toasties</strong><br>4, bank road, Ikoyi, Lagos, nigeria<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            </div>
+            <div id="contactText">
+              <img id="contactImg" src="./images/toasties_contact.jpg">
+            </div>
+          </section>
+        </div>
       </div>
-    </footer>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <footer class="footer">
+          <div class="container">
+            <div id="footerTelContact" class="col-xs-3">
+              <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+              <h3 id="footerTel">0908.016.1647</h3>
+            </div>
+            <div id="footerVR1">
+              <p>&#124;</p>
+            </div>
+            <div class="col-xs-3">
+              <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
+              <h3>info@biscuitboneblog.com</h3>
+            </div>
+            <div id="footerVR2">
+              <p>&#124;</p>
+            </div>
+            <div class="col-xs-3">
+              <ul>
+                <li id="instagram"><a href="https://www.instagram.com/biscuitboneblog/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+                <li id="facebook"><a href="https://www.facebook.com/toastiesbybiscuitbone/?fref=ts"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
 	<script src="./js/index.js"></script>
 </body>
 </html>
