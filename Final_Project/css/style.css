@@ -2,6 +2,7 @@ body {
 	border: 5px solid green;
 	font-family: sans-serif;
 	padding-top: 54px;
+	background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");
 }
 .navbar-header{
 	border: 1px solid red;
@@ -24,13 +25,15 @@ body {
 }
 section{
 	border: 2px solid blue;
-	height: 500px;
+	margin-bottom: 50px;
+	/*height: 500px;*/
 }
 #home{
 	border: 2px solid purple;
 	background-image: url("../images/shaki_toastie2.jpg");
 	background-size: cover;
 	background-position:center;
+	height: 500px;
 }
 #menu{
 	background-image: url("../images/toasties_menu_screenshot.jpg");
@@ -57,20 +60,19 @@ hr{
 	font-weight: bold;
 }
 #contact{
-	background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");
 }
 #contactImg{
-	width: 40%;
+	width: 90%;
+	margin: 5%;
 	height: auto;
 	float: right;
 }
 #map{
 	border: 2px solid green;
-	float: left;
-	clear: right;
+	margin: 5%;
 }
 .footer {
-	border: 2px solid red;
+	border: 2px solid purple;
 	/*bottom: 0;*/
 	width: 100%;
 	/*Set the fixed height of the footer here */
@@ -79,22 +81,57 @@ hr{
 	color: white;
 	text-align: center;
 }
-.fa-phone{
+#footerTelContact{
+	border: 1px solid pink;
+}
+.fa-phone,
+.fa-envelope-o,
+#instagram{
 	border: 2px solid pink;
 	float: left;
-	clear:right;
+	margin-right: 15px;
 }
-#footerTel{
-	border: 2px solid pink;
-	float: right;
-	clear: both;
+.footerVR{
+	width: 3px;
+	height: 90%;
+	margin-top: 5%;
+	float: left;
+	background-color: white;
 }
-#footerVR1{
-	float: right;
-	clear: both;
+#footerEmail{
+	border: 1px solid red;
 }
-
+footer i,
+footer p,
+#footerEmail,
+#footerTel,
+#footerTelContact,
+#socialMedia{
+	float: left;
+}
+#socialMedia{
+	border: 1px solid pink;
+}
 footer li {
   display: inline-block;
   list-style: none;
 }
+.footerItems{
+	margin: 0 auto;
+}
+.footerItems.tele {
+	width: 128px;
+}
+.footerItems.email {
+	width: 203px;
+}
+.footerItems.social{
+	width: ;
+}
+
+@media (max-width: 767px) {
+	#home {
+		height: 300px;
+	}
+}
+@media (max-width: 
