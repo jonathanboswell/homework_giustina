@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Elements</title>
+    <link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title pull-left">Today's Menu</h2>
+                    <form id="apiForm" class="panel-title pull-right">
+                        <div class="form-group">
+                            <button class="btn btn-xs btn-success pull-right" id="apiRequestButton">
+                                <i class="fa fa-refresh"></i>
+                                Refresh Menu
+                            </button>
+                        </div>
+                    </form>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="menu" class="panel-body">
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

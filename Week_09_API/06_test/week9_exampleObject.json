@@ -1,0 +1,27 @@
+{
+    "breakfast": {
+        "items": [
+            {"name": "eggs", "desc":"scrambled to perfection with cheese of choice", "price": 7, "cheeses":["brie","swiss","cheddar"]},
+            {"name": "cereal", "desc":"five grain toasted oat cereal with almonds", "price": 9},
+            {"name": "omelette", "desc":"three eggs, garden veggies, sour cream and salsa", "price": 11},
+            {"name": "oatmeal", "desc":"brown sugar, raisans, walnuts and cream, apples", "price": 6}
+        ],
+        "hours": "6:30 am - 11am"
+    },
+    "lunch": {
+        "items": [
+            {"name": "sandwich", "desc":"classic blt on wheat", "price": 12},
+            {"name": "burrito", "desc":"steak with black beans, rice and grilled peppers", "price": 11},
+            {"name": "salad", "desc":"mixed greens, roasted peppers, quinoa and choice of cheese", "price": 13, "cheeses":["asiago","blue","american"]}
+        ],
+        "hours": "11 am - 4pm"
+    },
+    "dinner": {
+        "items": [
+            {"name": "pasta", "desc":"sun dried tomato pasta with bolognese", "price": 16},
+            {"name": "steak", "desc":"filet with blue cheese mashed potatoes and figs", "price": 28},
+            {"name": "fish", "desc":"catch of the day prepared to order", "price": 24}
+        ],
+        "hours": "4pm - 10pm"
+    }
+}
