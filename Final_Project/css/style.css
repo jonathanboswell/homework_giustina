@@ -4,11 +4,18 @@ body {
 	padding-top: 54px;
 	background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");
 }
-.navbar-header{
-	border: 1px solid red;
+.navbar{
+	background-image: url("../images/shaki_toastie2.jpg");
+	background-size: cover;
+	background-position:center;
+	height: 500px;
 }
 #navbar{
-	border: 2px solid red;
+	border: 2px solid white;
+	margin-top: 10%;
+}
+.navbar-header{
+	border: 1px solid white;
 }
 #main-navbar{
 	border: 2px solid blue;
@@ -28,13 +35,13 @@ section{
 	margin-bottom: 50px;
 	/*height: 500px;*/
 }
-#home{
+/*#home{
 	border: 2px solid purple;
 	background-image: url("../images/shaki_toastie2.jpg");
 	background-size: cover;
 	background-position:center;
 	height: 500px;
-}
+}*/
 #menu{
 	background-image: url("../images/toasties_menu_screenshot.jpg");
 	background-size: cover;
