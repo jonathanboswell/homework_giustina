@@ -1,8 +1,8 @@
 body {
-	border: 5px solid green;
 	font-family: sans-serif;
-	padding-top: 54px;
-	background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");
+	/*padding-top: 54px;*/
+	/*background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");*/
+	background-color: rgb(38,43,49);
 }
 .navbar{
 	background-image: url("../images/shaki_toastie2.jpg");
@@ -11,14 +11,18 @@ body {
 	height: 500px;
 }
 #navbar{
-	border: 2px solid white;
-	margin-top: 10%;
+	font-size: 200%;
+	background-color: teal;
+	/*margin-top: 10%;*/
 }
-.navbar-header{
-	border: 1px solid white;
+#main-navbar a{
+	font-weight: bolder;
+	color: pink;
 }
-#main-navbar{
-	border: 2px solid blue;
+#homeLink{
+	font-size: 200%;
+	color: black;
+	font-weight: bolder;
 }
 #logoNav{
 	max-height: 10%;
@@ -26,12 +30,10 @@ body {
 	border: 1px solid red;
 }
 #sections{
-	border: 2px solid orange;
 	padding-left: 0;
 	padding-right: 0;
 }
 section{
-	border: 2px solid blue;
 	margin-bottom: 50px;
 	/*height: 500px;*/
 }
@@ -43,13 +45,39 @@ section{
 	height: 500px;
 }*/
 #menu{
-	background-image: url("../images/toasties_menu_screenshot.jpg");
+	/*background-image: url("../images/toasties_menu_screenshot.jpg");
 	background-size: cover;
-	background-position: center;
-	height: 700px;
+	background-position: center;*/
+	height: 1000px;
+	background-color: rgb(38,43,49);
+	color: teal;
+}
+#menu h3{
+	font-weight: bold;
+	color: pink;
+}
+#menu h2{
+	color: white;
+}
+#menuSection1,
+#menuSection2{
+	float: left;
+	margin-left: 6%;
+	text-align: center;
+}
+#menuToasties,
+#menuFries,
+#menuMeals,
+#menuSnacks,
+#menuDrinks{
+	border: 1px solid white;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 #cateringEvents{
-	background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");
+	/*background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");*/
+	background-color: rgb(38,43,49);
 	text-align: center;
 }
 hr{
@@ -57,8 +85,8 @@ hr{
 	margin-top: 50px;
 }
 #cateringEventsText{
-	border: 1px solid blue;
 	padding-top: 50px;
+	padding-bottom: 20px;
 	line-height: 30px;
 	width: 70%;
 	height: auto;
@@ -66,35 +94,41 @@ hr{
 	color: white;
 	font-weight: bold;
 }
-#contact{
-}
 #contactImg{
 	width: 90%;
 	margin: 5%;
 	height: auto;
 	float: right;
 }
+#contact h1{
+	color: white;
+	text-align: center;
+}
+#contactText1{
+	color: pink;
+	font-size: 150%;
+	text-align: center;
+}
+#contactText2{
+	color: teal;
+	font-size: 150%;
+	text-align: center;
+}
 #map{
-	border: 2px solid green;
 	margin: 5%;
 }
 .footer {
-	border: 2px solid purple;
 	/*bottom: 0;*/
 	width: 100%;
 	/*Set the fixed height of the footer here */
 	height: 50px;
-	background-color: black;
+	background-color: rgb(38,43,49);
 	color: white;
 	text-align: center;
-}
-#footerTelContact{
-	border: 1px solid pink;
 }
 .fa-phone,
 .fa-envelope-o,
 #instagram{
-	border: 2px solid pink;
 	float: left;
 	margin-right: 15px;
 }
@@ -105,9 +139,6 @@ hr{
 	float: left;
 	background-color: white;
 }
-#footerEmail{
-	border: 1px solid red;
-}
 footer i,
 footer p,
 #footerEmail,
@@ -115,9 +146,7 @@ footer p,
 #footerTelContact,
 #socialMedia{
 	float: left;
-}
-#socialMedia{
-	border: 1px solid pink;
+	margin-top: 7px;
 }
 footer li {
   display: inline-block;
