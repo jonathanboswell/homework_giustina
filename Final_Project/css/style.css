@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;
+	font-family: "Montserrat", sans-serif;
 	/*padding-top: 54px;*/
 	/*background-image: url("http://media.istockphoto.com/photos/manila-envelope-old-brown-recycled-envelope-texture-picture-id482423330?k=6&m=482423330&s=170667a&w=0&h=ZL7yKM_A0uygSDgNZIAjE7afXSp4oiZ3NG_w3_R26V4=");*/
 	background-color: rgb(38,43,49);
@@ -21,7 +21,7 @@ body {
 }
 #homeLink{
 	font-size: 200%;
-	color: black;
+	color: white;
 	font-weight: bolder;
 }
 #logoNav{
@@ -128,7 +128,8 @@ hr{
 }
 .fa-phone,
 .fa-envelope-o,
-#instagram{
+#instagram,
+#facebook{
 	float: left;
 	margin-right: 15px;
 }
@@ -159,10 +160,10 @@ footer li {
 	width: 128px;
 }
 .footerItems.email {
-	width: 203px;
+	width: 250px;
 }
 .footerItems.social{
-	width: ;
+	width: 200px;
 }
 
 @media (max-width: 767px) {
